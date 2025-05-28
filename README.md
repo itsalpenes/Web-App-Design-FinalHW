@@ -25,9 +25,13 @@ bu menü aracılığıyla diğer sayfalara daha rahat erişim sağlanabiliyor.
 
 # Projeden bazı ekran görüntüleri
 
-![Attractions Page](Project-Photos/attractions.png)
+<img src="Project-Photos/attractions.png" alt="Attractions Page" width="500" height="300" />
+
+# 
 
 ![Mobile View](Project-Photos/mobileView.png)
+
+#
 
 ![Subscribe Page](Project-Photos/subscribe.png)
 
