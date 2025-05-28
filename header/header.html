@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f2f3f5;
+      }
+
+      #mainTitle {
+        font-size: 1.2rem;
+        color: #ede85e;
+        font-weight: bold;
+        justify-content: center;
+        align-self: center;
+        margin-left: auto;
+        margin-right: 9%;
+        text-decoration: none;
+      }
+
+      #mainTitle:hover {
+        font-size: 1.22rem;
+        text-decoration: none;
+      }
+
+      #headerDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 50px 30px 0;
+        background-color: #24341f;
+        border-bottom: 1px solid #dee2e6;
+        gap: 30px;
+      }
+      #icon{
+        display: none;
+      }
+
+      #navEl {
+        display: flex;
+        align-items: center;
+        position: relative;
+        gap: 20px;
+      }
+      #navEl ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+      }
+
+      .headerEl {
+        display: flex;
+        flex-direction: row;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: medium;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .headerEl:visited {
+        text-decoration: none;
+      }
+
+      .headerEl:hover {
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      @media (max-width: 800px) {
+        #navEl ul {
+          display: none;
+        }
+        #icon{
+          display: block;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="headerDiv" class="animate__animated animate__fadeInDown">
+          <a href="../HomePage/london.html" id="mainTitle"
+            ><h1 class="animate__animated animate__fadeInLeft">
+              Welcome To London
+            </h1></a
+          >
+
+          <div id="navEl" class="animate__animated animate__fadeInRight">
+            <ul id="header-ul">
+              <li>
+                <a href="../HomePage/london.html" class="headerEl">Home</a>
+              </li>
+              <li>
+                <a href="../History-Of-London/history.html" class="headerEl"
+                  >History</a
+                >
+              </li>
+              <li>
+                <a href="../Top-Attractions/attractions.html" class="headerEl"
+                  >Attractions</a
+                >
+              </li>
+              <li>
+                <a href="../Subscribe/subscribe.html" class="headerEl"
+                  >Subscribe</a
+                >
+              </li>
+              <li>
+                <a href="../Gallery/gallery.html" class="headerEl">Gallery</a>
+              </li>
+            </ul>
+            <a href="javascript:void(0);" id="icon" onclick="toggleBar()">
+              <img src="../src/menu.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
