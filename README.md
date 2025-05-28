@@ -29,11 +29,11 @@ bu menü aracılığıyla diğer sayfalara daha rahat erişim sağlanabiliyor.
 
 # 
 
-![Mobile View](Project-Photos/mobileView.png)
+<img src="Project-Photos/mobileView.png" alt="Attractions Page - Mobile View" width="250" />
 
 #
 
-![Subscribe Page](Project-Photos/subscribe.png)
+<img src="Project-Photos/subscribe.png" alt="Subscribe Page" width="500" height="300" />
 
 
 
