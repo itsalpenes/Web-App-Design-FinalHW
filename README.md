@@ -22,3 +22,17 @@ Manipülasyonlarını ve ileri-geri butonları ile etkileşim sağlayabilmek iç
 tasarım sağlanabilmesi için sayfa genişliği header elementlerini sığdırmaya
 yeterli olmadığı durumda header butonlarının yerini toggle menü alıyor ve
 bu menü aracılığıyla diğer sayfalara daha rahat erişim sağlanabiliyor.
+
+![Home Page](Project-Photos/homePage.png)
+
+![History Page](Project-Photos/history.png)
+
+![Attractions Page](Project-Photos/attractions.png)
+
+![Mobile View](Project-Photos/mobileView.png)
+
+![Subscribe Page](Project-Photos/subscribe.png)
+
+![Gallery Page](Project-Photos/gallery.png)
+
+
