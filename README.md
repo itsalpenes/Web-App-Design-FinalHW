@@ -23,9 +23,7 @@ tasarım sağlanabilmesi için sayfa genişliği header elementlerini sığdırm
 yeterli olmadığı durumda header butonlarının yerini toggle menü alıyor ve
 bu menü aracılığıyla diğer sayfalara daha rahat erişim sağlanabiliyor.
 
-![Home Page](Project-Photos/homePage.png)
-
-![History Page](Project-Photos/history.png)
+# Projeden bazı ekran görüntüleri
 
 ![Attractions Page](Project-Photos/attractions.png)
 
@@ -33,6 +31,5 @@ bu menü aracılığıyla diğer sayfalara daha rahat erişim sağlanabiliyor.
 
 ![Subscribe Page](Project-Photos/subscribe.png)
 
-![Gallery Page](Project-Photos/gallery.png)
 
 
