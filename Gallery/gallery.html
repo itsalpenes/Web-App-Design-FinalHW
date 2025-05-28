@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - London</title>
+    <link rel="stylesheet" href="gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="header-container"></div>
+      </nav>
+    </header>
+
+    <main id="gallery-main" class="animate__animated animate__fadeInUp">
+      <div id="gallery-header">
+        <h1>Gallery - London</h1>
+        <p>Welcome to the London gallery page!</p>
+        <p>Here you can find various images and information about London.</p>
+      </div>
+      <div id="gallery">
+        <img src="../src/image1.jpg" alt="LondonImages" id="imgAlbum" />
+        <h2 id="imgInfo">Big Ben</h2>
+      </div>
+
+      <div id="imgController">
+        <button class="imgController" onclick="previousImage()">&lt;</button>
+        <button class="imgController" onclick="nextImage()">&gt;</button>
+      </div>
+
+      <footer class="animate__animated animate__fadeInUp">
+        <p>&copy; 2025 Enes ALP</p>
+      </footer>
+      
+      <script src="gallery.js"></script>
+      <script src="../header/header.js"></script>
+    </main>
+  </body>
+</html>
