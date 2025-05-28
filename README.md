@@ -23,7 +23,7 @@ tasarım sağlanabilmesi için sayfa genişliği header elementlerini sığdırm
 yeterli olmadığı durumda header butonlarının yerini toggle menü alıyor ve
 bu menü aracılığıyla diğer sayfalara daha rahat erişim sağlanabiliyor.
 
-# Projeden bazı ekran görüntüleri
+# Projeden Bazı Ekran Görüntüleri
 
 ### Attractions Page
 <img src="Project-Photos/attractions.png" alt="Attractions Page" width="500" height="300" />
